@@ -1,0 +1,109 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Container for content */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    font-weight: 300;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 40px 0;
+  }
+  
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    font-size: 1.1em;
+    margin: 5px 0;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin: 10px 0 5px;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+  
